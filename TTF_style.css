@@ -23,7 +23,7 @@
 .QC {
     padding: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 table {
@@ -38,6 +38,7 @@ th, td {
     border: 1px solid #000000;
     padding: 10px;
     text-align: center;
+    font-size: 30px;
 }
 
 .about_boxes {
@@ -61,8 +62,8 @@ th, td {
     font-size: 40px;
 }
 
-.about_box p {
-    font-size: 20px;
+p {
+    font-size: 30px;
 }
 
 .about_box .img_1 {
@@ -83,5 +84,10 @@ form {
     margin: auto;
     width: 95%;
     text-align: center;
+}
 
+input {
+  width: 100%;
+  max-width: 400px; 
+  height: 5%;    
 }
